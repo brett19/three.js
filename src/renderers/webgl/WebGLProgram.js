@@ -371,7 +371,8 @@ THREE.WebGLProgram = ( function () {
 		this.program = program;
 		this.vertexShader = glVertexShader;
 		this.fragmentShader = glFragmentShader;
-
+		this.uniformState = {};
+		
 		return this;
 
 	};
